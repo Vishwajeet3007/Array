@@ -26,7 +26,7 @@ arr2=[1,2,3,4,5,6,7,8,9]
 reverse(arr2)
 print(arr2)
 
-# Using reverse built-in-function
+#4.Using reverse built-in-function
 def reverse(arr3):
     arr3.reverse()
     return arr3
