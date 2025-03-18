@@ -12,6 +12,7 @@ def rangeSumquries(arr,queries):
     for start,end in queries:
         result.append(str(prefix_sum[end + 1]-prefix_sum[start]))
     return " ".join(result)
+
 arr = [3,1,4,1,5,9]
 queries = [(1,3),(0,2),(2,5)]
 print(rangeSumquries(arr,queries))
